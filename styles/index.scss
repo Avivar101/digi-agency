@@ -15,7 +15,7 @@ body {
   background-color: #121318;
 
   &::-webkit-scrollbar {
-    background-color: transparent;
+    background-color: blue;
     width: 0.5rem;
   }
   &::-webkit-scrollbar-thumb {
@@ -107,10 +107,11 @@ nav {
 
 .main-container {
   .container {
-    display: flex;
-    grid-template-columns: repeat(2);
     margin-top: 5rem;
     margin-left: 10rem;
+    display: flex;
+    grid-template-columns: repeat(2);
+
     .hero-content {
       margin-top: 2rem;
       h1 {

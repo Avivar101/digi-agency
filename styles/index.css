@@ -13,7 +13,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  background-color: blue;
+  background-color: transparent;
   width: 0.5rem;
 }
 
